@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.bg{
+   background: url('bg.jpg') no-repeat center center fixed;
+   background-size: cover;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.95;
+}
+.promo {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0;
+}
+ .promo p {
+    margin: 0;
+    font-weight: bold;
+}
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo size */
+}
+
+.nav-options a {
+    color: green;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+ .nav-options a:hover {
+    color: #ffcc00; /* Color change on hover */
+}
+
+ .user-options a {
+    color: green;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+ .user-options a:hover {
+    color: #ffcc00; /* Color change on hover */
+}
+
+ .user-options a i {
+    font-size: 1.2em; /* Adjust icon size */
+    margin-right: 5px; /* Space between icon and text */
+}
+.user-options .flag{
+    height: 50px; /* Adjust flag size */
+    width: 50px;
+     /* Space between text/icon and flag */
+}
+.product {
+    display: flex;
+    background-color: white;
+}
+.image img {
+    width: 70%; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 20%;
+    gap: 5px;
+
+}
+.details {
+    padding: 5px;
+}
+.details h1 {
+    color: green;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.details p{
+    color: green;
+    font-size: 15px;
+    font-style: italic;
+}
+.d2 p{
+color: green;
+}
+.d3 p{
+    color: darkmagenta;
+}
+.flavors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.flavor {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: border-color 0.3s;
+}
+  
+.flavor img {
+    width: 30%; /* Adjust the size as needed */
+    height: 70%;
+    border-radius: 70%;
+    display: circle;
+    background-color: plum;
+    animation: slide 1s ease-in-out; 
+}
+
+.flavor p {
+    margin: 5px 0 0;
+    color: #333;
+}
+
+.flavor img:hover {
+    background-color: black;
+}
+.input input[type="text"] {
+    padding: 3px;
+    margin-right: 5px;
+    border: solid;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color:lightgrey;
+    border-radius: 5%;
+    cursor: no-drop;
+}
+    .bg3{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: pink;
+    }
+
+.bg3 h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 3px;
+    color: green;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+.box {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.box:nth-child(1) {
+    background-image: url('s1.jpg');
+}
+.box:nth-child(2) {
+    background-image: url('s2.jpg');
+}
+.box:nth-child(3) {
+    background-image: url('s3.jpg');
+}
+.box:nth-child(4) {
+    background-image: url('s4.jpg');
+}
+.info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+button:hover {
+    background-color: #218838;
+    cursor: grab;
+}
+.bg6 {
+    display: flex;
+    background-color: lightgreen;
+}
+.picture img {
+    width: 80%; /* Adjust the size as needed */
+    height: 90%;
+    border-radius: 10%;
+}
+.d4{
+    background-color: lightgreen;
+}
+.d4 h1 {
+    color: darkgreen;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d4 p{
+    color: darkgreen;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dive{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.dive h3{
+font-size: 35px;
+text-align: center;
+padding: 3px;
+color: green;
+text-decoration: underline;
+}
+
+.contain{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #222;
+}
+.clip{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    transition: all 0.5s;
+    left: 0;
+}
+.clip1{
+    background: url('g1.jpg');
+    background-position: cover;
+    background-size: cover;
+    clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
+}
+.clip2{
+    background: url('g2.jpg');
+    background-position: cover;
+    background-size: cover;
+    clip-path: polygon(19% 0, 87% 0, 64% 100%, 33% 100%);
+}
+.clip3{
+    background: url('g3.jpg');
+    background-position: cover;
+    background-size: cover;
+    clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);
+}
+.contain:hover .clip{
+    clip-path: polygon(100% 0,100% 0,100% 100%,100% 100%);
+}
+.contain .clip:hover {
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+}
+.end{
+    align-items: center;
+    display: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: darkgreen;
+}
+.end h2{
+font-size: 35px;
+text-align: center;
+padding: 3px;
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.end p{
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.contain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    color: #222;
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    border-style: ridge;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgreen;
+}
